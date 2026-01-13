@@ -9,6 +9,7 @@ import {
   FiWatch,
   FiMenu,
   FiX,
+  FiUser,
 } from 'react-icons/fi';
 
 const Sidebar = () => {
@@ -21,6 +22,7 @@ const Sidebar = () => {
     { path: '/materials', icon: FiBook, label: 'Materials' },
     { path: '/notes', icon: FiFileText, label: 'Notes' },
     { path: '/timer', icon: FiWatch, label: 'Timer' },
+    { path: '/profile', icon: FiUser, label: 'Profile' },
   ];
 
   return (

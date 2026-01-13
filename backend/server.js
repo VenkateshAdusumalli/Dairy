@@ -37,6 +37,7 @@ app.use('/api/tasks', require('./routes/tasks'));
 app.use('/api/history', require('./routes/history'));
 app.use('/api/materials', require('./routes/materials'));
 app.use('/api/notes', require('./routes/notes'));
+app.use('/api/profile', require('./routes/profile'));
 
 // Health check route
 app.get('/api/health', (req, res) => {

@@ -11,6 +11,7 @@ import History from './pages/History';
 import Materials from './pages/Materials';
 import Notes from './pages/Notes';
 import Timer from './pages/Timer';
+import Profile from './pages/Profile';
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
@@ -59,6 +60,7 @@ function App() {
           <Route path="materials" element={<Materials />} />
           <Route path="notes" element={<Notes />} />
           <Route path="timer" element={<Timer />} />
+          <Route path="profile" element={<Profile />} />
         </Route>
 
         {/* 404 Route */}
